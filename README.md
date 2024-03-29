@@ -1,6 +1,7 @@
 # TradeTreck
 
 Create a portfolio and monitor your profits [TradeTreck](https://github.com/jorolqkis/trade-treck)
+https://tradetrek-3347c.web.app/
 
 ## Getting Started
 
