@@ -1,0 +1,44 @@
+.portfolio-page {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.portfolio-main-row-wrapper,
+.portfolio-row-wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.portfolio-main-row,
+.portfolio-row {
+	width: 140px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.portfolio-main-row,
+.portfolio-row {
+	border-bottom: 1px solid #000000;
+}
+
+.remove-stock-button:hover {
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+.button-add {
+	margin-top: 10px;
+}
+
+.button-remove {
+	background-color: rgb(208, 38, 38) !important;
+	opacity: 0.6;
+}
+
+.button-remove:hover {
+	opacity: 1;
+}

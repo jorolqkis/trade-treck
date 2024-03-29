@@ -1,0 +1,103 @@
+.monitor-page {
+	width: 90%;
+	padding: 40px;
+	margin-bottom: 15px;
+	display: flex;
+}
+
+.monitor-main-row-wrapper,
+.monitor-row-wrapper {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.monitor-summary-row-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 840px;
+}
+
+.monitor-main-row,
+.monitor-row,
+.monitor-summary-row {
+	width: 140px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.monitor-news-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.profit-row {
+	color: #006e0c;
+}
+
+.loss-row {
+	color: red;
+}
+
+.monitor-fetch-prices {
+	background: black;
+}
+
+.monitor-fetch-prices:hover {
+	cursor: pointer;
+}
+
+/* CSS */
+.button {
+	appearance: none;
+	background-color: #43204b;
+	border: 1px solid rgba(27, 31, 35, 0.15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 6px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.button:focus:not(:focus-visible):not(.focus-visible) {
+	box-shadow: none;
+	outline: none;
+}
+
+.button:hover {
+	background-color: #6c1559;
+}
+
+.button:focus {
+	box-shadow: rgba(74, 23, 72, 0.4) 0 0 0 3px;
+	outline: none;
+}
+
+.button:disabled {
+	background-color: #cfaad6;
+	border-color: rgba(27, 31, 35, 0.1);
+	color: rgba(255, 255, 255, 0.8);
+	cursor: default;
+}
+
+.button:active {
+	background-color: #381a33;
+	box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}

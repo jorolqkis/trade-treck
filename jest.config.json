@@ -1,0 +1,6 @@
+{
+  "testEnvironment": "jsdom",
+  "moduleNameMapper": {
+    "\\.(css|less)$": "<rootDir>/_mocks_/styleMock.js"
+  }
+}
