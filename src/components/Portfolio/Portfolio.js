@@ -29,8 +29,6 @@ export default function Portfolio({ stocks, setStocks }) {
 		return () => {};
 	}, [setStocks]);
 
-	console.log(stocks);
-
 	const handleRemoveStock = async stockId => {
 		try {
 			const userId = auth.currentUser.uid;
